@@ -1,0 +1,4 @@
+step,s,event,portfolio,closed
+0,6.00,start,{},yes
+1,4.50,c1 crosses below T1_plus=5.00; acquire c1,{c1},yes
+2,6.00,return to band; no c2 acquisition because T2_plus=2.00 not crossed,{c1},yes

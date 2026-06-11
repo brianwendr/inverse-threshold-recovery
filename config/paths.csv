@@ -1,0 +1,18 @@
+case,step,s,initial_state,description
+c1_loop,0,6.00,0,initial state inside band
+c1_loop,1,4.80,,downward crossing triggers acquisition
+c1_loop,2,6.00,,same s as step 0 after acquisition
+c1_loop,3,9.00,,upward crossing triggers divestiture
+c1_loop,4,6.00,,same s again after divestiture
+saturated_return,0,9.50,0,absent at forced divest side
+saturated_return,1,4.50,,cross below acquire threshold
+saturated_return,2,9.50,,return to forced divest side
+band_interior_nonreturn,0,6.00,0,absent at band interior
+band_interior_nonreturn,1,4.50,,cross below acquire threshold
+band_interior_nonreturn,2,6.00,,return to same band interior
+dual_nonreturn,0,6.00,1,held at band interior
+dual_nonreturn,1,9.00,,cross above divest threshold
+dual_nonreturn,2,6.00,,return to same band interior
+partial_prereq_loop,0,6.00,,start with empty portfolio
+partial_prereq_loop,1,4.50,,cross c1 acquire threshold only
+partial_prereq_loop,2,6.00,,return to band interior with closed portfolio

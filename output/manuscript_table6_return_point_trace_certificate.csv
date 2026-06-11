@@ -1,0 +1,4 @@
+case,path,initial_state,threshold_events,final_state
+Saturated return,9.50 -> 4.50 -> 9.50,absent at 9.50,acquire below 5.00; divest at 8.75,absent at 9.50
+Band-interior non-return,6.00 -> 4.50 -> 6.00,absent at 6.00,acquire below 5.00; no divest crossing,held at 6.00
+Dual non-return,6.00 -> 9.00 -> 6.00,held at 6.00,divest at 8.75; no acquire,absent at 6.00
