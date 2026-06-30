@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal deterministic replication code for the ORL ITP manuscript.
+"""Minimal deterministic replication code for the RAIRO-Operations Research manuscript.
 
 It regenerates the finite calculations reported in Section 6:
 Table 1: base instance;

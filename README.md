@@ -1,24 +1,29 @@
-# Supplementary Material for Optimization Letters Submission
+# Supplementary Material for RAIRO-Operations Research Submission
 
-Article title: Inverse Threshold Recovery for Finite-Chain Scheduling with Switching Costs
+Article title: Recovering Switching-Cost Differences from Threshold Policies on a Finite Chain
 
-Journal: Optimization Letters
-
-Author: Yen-Chun Wen, Department of Finance & Cooperative Management, National Taipei University
+Author: Yen-Chun Wen
+Affiliation: Department of Finance & Cooperative Management, National Taipei University
+Email: brianwen@mail.ntpu.edu.tw
 
 ## Contents
 
-- `replicate_tables.py` — self-contained Python script.
-- `results/table1_base_instance.csv` — base instance used for Table 1.
-- `results/table2_boundary_verification.csv` — boundary checks for Propositions 1 and 2.
-- `results/table3_systematic_verification.csv` — systematic finite-instance verification.
+- `replicate_tables.py`: deterministic Python script that regenerates the finite verification values reported in Section 6 of the manuscript.
+- `results/table1_base_instance.csv`: base-instance thresholds, feasible intervals, and near-origin representative.
+- `results/table2_boundary_verification.csv`: boundary and sensitivity checks.
+- `results/table3_systematic_verification.csv`: systematic parametric and independent finite-instance checks.
 
-## How to run
+## Reproduction
 
-Use Python 3.9 or later:
+Run:
 
 ```bash
-python replicate_tables.py
+python3 replicate_tables.py
 ```
 
-The command regenerates the three CSV files in `results/`.
+The script uses only the Python standard library. No external datasets and no third-party packages are required.
+
+## Public copy
+
+A public copy of this replication package is available at:
+https://github.com/brianwendr/inverse-threshold-recovery
